@@ -1,0 +1,25 @@
+javac -sourcepath . -cp owlapi-distribution-3.4.5.jar:HermiT.jar Populator.java 
+java -classpath .:owlapi-distribution-3.4.5.jar:HermiT.jar 
+Populator 
+/home/jr/ontologies/Adolena/TBox.owl,/home/jr/ontologies/Adolena/TBox_ext.owl 
+/home/jr/ontologies/Adolena/E.owl 
+130000 
+1300000 
+0.2
+1
+
+
+javac -sourcepath . -cp owlapi-distribution-4.1.0.jar:HermiT.jar JPOT.java
+javac -sourcepath . -cp owlapi-distribution-4.1.0.jar CASS.java
+java -classpath .:owlapi-distribution-4.1.0.jar:HermiT.jar:lib/* JPOT -t /home/jr/Documents/Softwares/JPOT/University_ext/TBox.owl,/home/jr/Documents/Softwares/JPOT/University_ext/TBox_ext2.owl -a /home/jr/Documents/Softwares/JPOT/TEST.owl -i 10 -x 20 -c 0.5 -o 0.5
+
+
+
+NEW JPOT
+
+javac -sourcepath . -cp owlapi-distribution-4.1.0.jar:pellet-2.4.0-ignazio1977/lib/pellet-owlapi-ignazio1977-2.4.0-ignazio1977.jar:lib/*:pellet-2.4.0-ignazio1977/lib/*:. JPOT.java
+javac -sourcepath . -cp owlapi-distribution-4.1.0.jar:pellet-2.4.0-ignazio1977/lib/pellet-owlapi-ignazio1977-2.4.0-ignazio1977.jar:lib/*:pellet-2.4.0-ignazio1977/lib/*:. CASS.java
+javac -sourcepath . -cp owlapi-distribution-4.1.0.jar:pellet-2.4.0-ignazio1977/lib/pellet-owlapi-ignazio1977-2.4.0-ignazio1977.jar:lib/*:pellet-2.4.0-ignazio1977/lib/*:. OPASS.java
+
+
+java -classpath .:owlapi-distribution-4.1.0.jar:pellet-2.4.0-ignazio1977/lib/pellet-owlapi-ignazio1977-2.4.0-ignazio1977.jar:lib/*:pellet-2.4.0-ignazio1977/lib/*:. JPOT -t  /home/jr/Documents/Papers/SimBig17/linkedUn.owl -a /home/jr/Documents/Papers/SimBig17/ABox.owl -i 10 -x 20 -c 0.5 -o 0.5
