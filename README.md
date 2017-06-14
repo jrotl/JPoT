@@ -13,7 +13,7 @@ Just another Populator of TBoxes
 	The OWL API is a Java API for creating, manipulating and serialising OWL Ontologies.
 	
 	- PELLET REASONER (for OWLAPI 4.0.* released by @ignazio1977). 
-	Pellet is an OWL 2 reasoner in Java released under Open source (AGPL) and commercially licensed .(http://clarkparsia.com/pellet)
+	Pellet is an OWL 2 reasoner in Java released under Open source (AGPL) and commercially licensed.
 	
 	- JaNaG (Java Name Generator released by @mkalus) released under GNU Library or Lesser General Public License version 3.0 (LGPLv3)
 	JaNaG is a random name generator based on a name fragment database that creates relatively reasonably sounding names from different cultures/influences.  
@@ -23,7 +23,7 @@ Just another Populator of TBoxes
 
 	The executables of JPOT (bundled shared libraries) are located in the './bin ' directory. 
 	The sources of JPOT are located in the './src' directory. To use the library make sure that Java finds 
-	owlapi-distribution-4.1.0.jar,pellet-2.4.0-ignazio1977/lib/pellet-owlapi-ignazio1977-2.4.0-ignazio1977.jar,lib/,:pellet-2.4.0-ignazio1977/lib/ and JaNaG.jar in the class path.
+	owlapi-distribution-4.1.0.jar,pellet-2.4.0-ignazio1977/lib/pellet-owlapi-ignazio1977-2.4.0-ignazio1977.jar,lib/,pellet-2.4.0-ignazio1977/lib/ and JaNaG.jar in the class path.
 	JPOT populates Tboxes using 4 parameters:
 	
 	-i: a number of (potential) individuals
