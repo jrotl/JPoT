@@ -27,11 +27,15 @@ Just another Populator of TBoxes
 	JPOT populates Tboxes using 4 parameters:
 	
 	-i: a number of (potential) individuals
+	
 	-x: a number assertions
+	
 	-c: a ratio of the number of concept assertions on the total number of assertions
+	
 	-d: a ratio of the number of role assertions on the number of data assertions
 
 	For example:
+	
 		java -classpath .:owlapi-distribution-4.1.0.jar:pellet-2.4.0-ignazio1977/lib/pellet-owlapi-ignazio1977-2.4.0-ignazio1977.jar:lib/*:pellet-2.4.0-ignazio1977/lib/*:JaNaG.jar:. JPOT
 		-i 1000000
 		-x 1000000
