@@ -1,12 +1,7 @@
 # JPoT
 Just another Populator of TBoxes
 - OVERVIEW:
-
-	JPOT is potentially still under active development and contains some room for improvement. 
-	JPOT is distributed in the hope that it will be one day inspiring or useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-	
-	JPOT has been fully implemented in Java 7, so please download the appropriate JDK from Sun.
-	
+   
 	JPOT uses the following libraries:
 
 	- OWLAPI DISTRIBUTION 4.1.0 or above, released under Open Source licenses (LGPL and Apache). 
